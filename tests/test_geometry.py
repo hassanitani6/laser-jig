@@ -17,8 +17,8 @@ CASES = list(csv.DictReader((DATA / "all_pocket_types.csv").open(encoding="utf-8
 
 
 @pytest.mark.parametrize("case", CASES, ids=[c["product"] for c in CASES])
-def test_matches_golden_output_of_the_original_scripts(case, tmp_path):
-    """golden.json was made by the scripts this package grew out of; every pocket type must still match them."""
+def test_matches_golden_output(case, tmp_path):
+    """Every pocket type must still produce the recorded reference geometry in golden.json."""
     want = GOLDEN[case["product"]]
     got = stl_summary(make_jig(case, str(tmp_path)))
     assert got["min"] == pytest.approx(want["stl"]["min"], abs=1e-3)

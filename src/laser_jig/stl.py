@@ -39,7 +39,7 @@ def tol(t):
 
 
 def sb(x, y):
-    """SCAD corner coords → build123d centered coords."""
+    """Coordinates measured from the plate corner at (0, 0) → coordinates centred on the plate."""
     return x - base.HW, y - base.HH
 
 
