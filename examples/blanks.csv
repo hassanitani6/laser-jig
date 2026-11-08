@@ -1,0 +1,5 @@
+product,folder,blank_w_mm,blank_h_mm,blank_z_mm,shape,layout,pocket_type,tolerance,tab_w_mm,tab_l_mm,notes
+round_coaster,coasters,90,0,4,circle,1x1,cylinder,loose,,,90 mm round coaster blank
+square_tile,tiles,45,45,3,rect,2x1,4wall,tight,,,two 45 mm square tiles side by side
+bar_keychain,keychains,50,15,3,rect,4x1,3wall,tight,6,10,four bar keychains; the ring end sits in the open slot
+heart_tag,tags,40,36,3,heart,2x1,heart_profile,tight,6,6,two heart tags with a slot for the ring

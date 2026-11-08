@@ -1,0 +1,38 @@
+name: Bug report
+description: A jig or template comes out wrong, a CSV is rejected, or the tool crashes.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you file:** issues are public. Share only the CSV rows needed to show the problem.
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Environment (`laser-jig doctor` output)
+      description: Run `laser-jig doctor` and paste the result. Check it first; it should not contain personal details.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: The exact error, or what is wrong with the STL or SVG (pocket too tight, dots in the wrong place...).
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The command you ran and the CSV row(s), including the header line.
+      render: text
+      placeholder: laser-jig generate blanks.csv --width 120
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true

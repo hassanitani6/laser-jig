@@ -1,0 +1,14 @@
+product,folder,blank_w_mm,blank_h_mm,blank_z_mm,shape,layout,pocket_type,tolerance,tab_w_mm,tab_l_mm
+bar_open_end,rect,50,15,3,rect,4x1,3wall,tight,6,10
+bar_top_notch,rect,40,20,3,rect,1x1,3wall_top_notch,tight,8,6
+long_strip,rect,30,120,2,rect,2x1,3wall_overrun,loose,0,0
+tile_grid,rect,45,45,3,rect,2x1,4wall,tight,0,0
+badge_with_tab,rect,30,40,3,rect,2x1,4wall,tight,6,8
+thick_block,rect,40,60,20,rect,1x1,4wall,loose,0,0
+round_disc,circle,90,0,4,circle,1x1,cylinder,loose,0,0
+disc_with_tab,circle,50,0,4,circle,1x1,cylinder_notch,loose,8,10
+puck_with_notch,circle,60,0,10,circle,1x1,cylinder_removal_notch,loose,0,0
+arched_tag,other,50,95,3,tombstone,1x1,tombstone_pocket,tight,0,0
+card,other,85,55,2,wallet,1x1,wallet_pocket,tight,0,0
+heart_pair,heart,40,36,3,heart,2x1,heart_profile,tight,6,6
+heart_plain,heart,60,55,6,heart,1x1,heart_profile,loose,0,0

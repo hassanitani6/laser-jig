@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a new pocket shape, option or output.
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What blanks or laser setup is it for?
+    validations:
+      required: true

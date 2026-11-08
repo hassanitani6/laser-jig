@@ -1,0 +1,223 @@
+{
+ "bar_open_end": {
+  "stl": {
+   "triangles": 1660,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 92561.314
+  },
+  "svg_sha256": "7faf7e651c7855919386d28f30a94d99f22fc0ebcb3701a64f7b64b551ee3d0b"
+ },
+ "bar_top_notch": {
+  "stl": {
+   "triangles": 1564,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 102684.189
+  },
+  "svg_sha256": "754df01bd67eee63ad1868ec80382d8140c244aa0fd9a312c899e965c0231319"
+ },
+ "long_strip": {
+  "stl": {
+   "triangles": 1564,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 90839.814
+  },
+  "svg_sha256": "0a46ee8d4cb817a81f40a913f48ca6be1edce4e8da03b4bda19aa93721aef100"
+ },
+ "tile_grid": {
+  "stl": {
+   "triangles": 1564,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 91927.814
+  },
+  "svg_sha256": "5014dbd334a7b9631ffefc671387c64de8203fa2228d8268e65c1e123c7ddec3"
+ },
+ "badge_with_tab": {
+  "stl": {
+   "triangles": 1596,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 96176.814
+  },
+  "svg_sha256": "9d6d415012f44ffbbdf8bc5f0151af7834e5f8f1d10abea2f7e6cee6c5527936"
+ },
+ "thick_block": {
+  "stl": {
+   "triangles": 1548,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 86239.335
+  },
+  "svg_sha256": "32ea6a2c710bf34e488ee2b2cd256c0992dbd9dded03dc09cea4d2f838837cf1"
+ },
+ "round_disc": {
+  "stl": {
+   "triangles": 2036,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 77097.416
+  },
+  "svg_sha256": "e023efd84e9ad0af0b88eee38ae7987f8b5946430ed8d6f0fcb66fbb1aeb1fc3"
+ },
+ "disc_with_tab": {
+  "stl": {
+   "triangles": 2020,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 96086.883
+  },
+  "svg_sha256": "2d5a0787179b63bcdf43b13f9f6144531b3a3d135b19c71a9bd87f0c6a8c8365"
+ },
+ "puck_with_notch": {
+  "stl": {
+   "triangles": 1996,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 80418.686
+  },
+  "svg_sha256": "2c78fd03bce27fed70a1c3c6246a63ab2966a83d70a76cd8ed903e6dcd603f84"
+ },
+ "arched_tag": {
+  "stl": {
+   "triangles": 2052,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 90060.149
+  },
+  "svg_sha256": "ca30c9e8f58604247fab8be2d345004800c4fef2d73e4dd43aa485e4264f96d5"
+ },
+ "card": {
+  "stl": {
+   "triangles": 2060,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 94753.543
+  },
+  "svg_sha256": "2d1f1c7f61fdff1e35993d551de22c749feccb8a5fc231bf7c23974bec67476a"
+ },
+ "heart_pair": {
+  "stl": {
+   "triangles": 2292,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 98003.208
+  },
+  "svg_sha256": "8c656d6c69482e105fc54fb1188c00f60e7b4c5c802ec8683d9dfbc3f3a63c5d"
+ },
+ "heart_plain": {
+  "stl": {
+   "triangles": 1932,
+   "min": [
+    -54.5,
+    -54.5,
+    -4.5
+   ],
+   "max": [
+    54.5,
+    54.5,
+    4.8
+   ],
+   "volume": 97942.02
+  },
+  "svg_sha256": "0eee291899fe2bbbe7fa71e10211371e00163deaf7651f4633ccdc545ec40cb0"
+ }
+}
