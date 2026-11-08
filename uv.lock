@@ -540,7 +540,7 @@ wheels = [
 
 [[package]]
 name = "laser-jig"
-version = "0.1.1"
+version = "0.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "build123d" },
