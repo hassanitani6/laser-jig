@@ -376,8 +376,13 @@ def svg_text(row):
         ph_total = rows_n * pl + (rows_n - 1) * INTER_WALL
         y0_svg = (base.BASE_H - ph_total) / 2
         blank_bottom_svg = y0_svg + ph_total
-        label_y = blank_bottom_svg + 3.0
-        legend_y = blank_bottom_svg + 6.5 if label_y < base.BASE_H - 6 else None
+        if pocket_type != "3wall_top_notch" and float(row.get("tab_w_mm") or 0) > 0:
+            # The ring slots fill the space below the pockets, so the label goes above them instead.
+            label_y = max(y0_svg - 3.0, 4.0)
+            legend_y = label_y - 4.0 if label_y - 4.0 >= 3.0 else None
+        else:
+            label_y = blank_bottom_svg + 3.0
+            legend_y = blank_bottom_svg + 6.5 if label_y < base.BASE_H - 6 else None
     elif blank_h > 0:
         ph_row = blank_h + 2 * tol_v
         ph_total = rows_n * ph_row + (rows_n - 1) * INTER_WALL + 2 * WALL
