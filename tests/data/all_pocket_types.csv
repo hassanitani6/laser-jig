@@ -7,7 +7,7 @@ badge_with_tab,rect,30,40,3,rect,2x1,4wall,tight,6,8
 thick_block,rect,40,60,20,rect,1x1,4wall,loose,0,0
 round_disc,circle,90,0,4,circle,1x1,cylinder,loose,0,0
 disc_with_tab,circle,50,0,4,circle,1x1,cylinder_notch,loose,8,10
-puck_with_notch,circle,60,0,10,circle,1x1,cylinder_removal_notch,loose,0,0
+puck_with_notch,circle,64,0,8,circle,1x1,cylinder_removal_notch,loose,0,0
 arched_tag,other,50,95,3,tombstone,1x1,tombstone_pocket,tight,0,0
 card,other,85,55,2,wallet,1x1,wallet_pocket,tight,0,0
 heart_pair,heart,40,36,3,heart,2x1,heart_profile,tight,6,6

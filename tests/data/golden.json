@@ -137,7 +137,7 @@
  },
  "puck_with_notch": {
   "stl": {
-   "triangles": 1996,
+   "triangles": 2000,
    "min": [
     -54.5,
     -54.5,
@@ -148,9 +148,9 @@
     54.5,
     4.8
    ],
-   "volume": 80418.686
+   "volume": 84606.371
   },
-  "svg_sha256": "2c78fd03bce27fed70a1c3c6246a63ab2966a83d70a76cd8ed903e6dcd603f84"
+  "svg_sha256": "031353963b11dce5957afa0ff11f208f5234e20fe5dd55868c5ef8ecca811e5d"
  },
  "arched_tag": {
   "stl": {
