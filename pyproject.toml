@@ -1,6 +1,6 @@
 [project]
 name = "laser-jig"
-version = "0.1.1"
+version = "0.1.2"
 description = "3D-printable laser-engraving jigs (STL) and matching SVG alignment templates from a CSV of blank sizes."
 readme = "README.md"
 license = "MIT"

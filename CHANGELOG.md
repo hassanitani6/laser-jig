@@ -2,6 +2,12 @@
 
 Versions follow [Semantic Versioning](https://semver.org/).
 
+## 0.1.2 — 2026-11-08
+
+### Changed
+
+- Test data and test comments now use neutral synthetic values. No change to the jigs or templates.
+
 ## 0.1.1 — 2026-11-08
 
 ### Fixed
